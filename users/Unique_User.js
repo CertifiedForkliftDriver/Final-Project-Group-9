@@ -37,7 +37,7 @@ async function extendPresenceTime() {
             if (bodyText.includes('pet')) {
                 //extend presence by 1sec if its there
                 presenceTime += 10000;
-                console.log('Presence time extended by 1 second for "pet".');
+                console.log('Presence time extended by 10 seconds for "pet".');
 
                 //wait the extended 1sec if its there
                 await driver.sleep(10000);
@@ -52,7 +52,7 @@ async function extendPresenceTime() {
             if (images.length > 0) {
                 //extend presence by 1sec if so
                 presenceTime += 10000;
-                console.log('Presence time extended by 1 second for image.');
+                console.log('Presence time extended by 10 seconds for image.');
 
                 //wait the extended 1sec if so
                 await driver.sleep(10000);
@@ -67,7 +67,7 @@ async function extendPresenceTime() {
             if (links.length > 0) {
                 //extend presence by 1sec if so
                 presenceTime += 10000;
-                console.log('Presence time extended by 1 second for link.');
+                console.log('Presence time extended by 10 seconds for link.');
 
                 //wait the extended 1sec if so
                 await driver.sleep(10000);
@@ -90,7 +90,7 @@ async function extendPresenceTime() {
 
 
         //display time
-        console.log(`Total presence time: ${presenceTime / 1000} seconds`);
+        console.log(`Total presence time: ${presenceTime / 10000} seconds`);
     } finally {
         //close
         await driver.quit();
