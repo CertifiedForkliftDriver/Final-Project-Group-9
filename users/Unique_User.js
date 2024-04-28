@@ -90,7 +90,7 @@ async function extendPresenceTime() {
 
 
         //display time
-        console.log(`Total presence time: ${presenceTime / 10000} seconds`);
+        console.log(`Total presence time: ${presenceTime / 2000} seconds`);
     } finally {
         //close
         await driver.quit();
