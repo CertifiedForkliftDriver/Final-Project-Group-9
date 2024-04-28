@@ -36,11 +36,11 @@ async function extendPresenceTime() {
             bodyText = await driver.findElement(By.tagName('body')).getText();
             if (bodyText.includes('pet')) {
                 //extend presence by 1sec if its there
-                presenceTime += 1000;
+                presenceTime += 10000;
                 console.log('Presence time extended by 1 second for "pet".');
 
                 //wait the extended 1sec if its there
-                await driver.sleep(1000);
+                await driver.sleep(10000);
 
                 //update the count of "pet"s tracked
                 petCount--;
@@ -51,11 +51,11 @@ async function extendPresenceTime() {
             images = await driver.findElements(By.tagName('img'));
             if (images.length > 0) {
                 //extend presence by 1sec if so
-                presenceTime += 1000;
+                presenceTime += 10000;
                 console.log('Presence time extended by 1 second for image.');
 
                 //wait the extended 1sec if so
-                await driver.sleep(1000);
+                await driver.sleep(10000);
 
                 //update the count of images
                 images.pop();
@@ -66,11 +66,11 @@ async function extendPresenceTime() {
             links = await driver.findElements(By.tagName('a'));
             if (links.length > 0) {
                 //extend presence by 1sec if so
-                presenceTime += 1000;
+                presenceTime += 10000;
                 console.log('Presence time extended by 1 second for link.');
 
                 //wait the extended 1sec if so
-                await driver.sleep(1000);
+                await driver.sleep(10000);
 
                 //update the count of links
                 links.pop();
