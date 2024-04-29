@@ -60,7 +60,7 @@ class UniqueUser:
 
 def main():
     user = UniqueUser()
-    user.driver.get("http://localhost:8080/")
+    user.driver.get("http://localhost:3000/")
     total_presence_time = user.user_action()
     print("Total presence time:", total_presence_time, "seconds")
     user.close_browser()
