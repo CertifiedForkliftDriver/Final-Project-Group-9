@@ -34,6 +34,9 @@ function App() {
         <p style={{ fontFamily: "fantasy" }}>Present/Future</p>
         As of right now just working basic job while I pursue my bachleors degree within my time leaving the army and now I had another daughter just a beautiful and healthy as the first, but for current times there isn't to much intresting things going on except my family, and for the future well we'll see.
         <img src={armyPic} alt="Army/Family" />
+        <img src={armyPic} alt="Army/Family" />
+        <img src={armyPic} alt="Army/Family" />
+        <img src={armyPic} alt="Army/Family" />
 
         { /* "Vacation" by Dirty Heads */ }
         <div className="myDiv">

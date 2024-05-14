@@ -1,0 +1,14 @@
+Using a subset 10 random users from the set of the Population of users
+
+User: Presence Time
+
+User6: 40s
+User9: 40s
+User24: 20s
+User31: 10s
+User48: 60s
+User33: 4s
+User57: 3s
+User12: 100s
+User37: 42s
+User52: 120s
