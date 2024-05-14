@@ -1,0 +1,16 @@
+Using a subset 10 random users from the set of the Population of users
+
+adding 3 links
+
+User: Presence Time
+
+User4: 30s
+User7: 10s
+User10: 40s
+User25: 20s
+User31: 10s
+User11: 35s
+User35: 10s
+User39: 20s
+User51: 40s
+User55: 142s

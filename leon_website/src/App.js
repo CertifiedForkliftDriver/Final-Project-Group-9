@@ -33,9 +33,9 @@ function App() {
         after basic I was stationed in Alaska that was a lot more fun then I had initially thougt there I became my company armorer and just a reliable soldier that anyone can depend on I met my wife fell in love and got married and had a baby after my daughter was born I knew I didn't wanna stay in the army it just scared me to think of going off to fight a war that meant nothing like the war in Afghanistan so when our contracts were up my wife and I left and became civilians again.
         <p style={{ fontFamily: "fantasy" }}>Present/Future</p>
         As of right now just working basic job while I pursue my bachleors degree within my time leaving the army and now I had another daughter just a beautiful and healthy as the first, but for current times there isn't to much intresting things going on except my family, and for the future well we'll see.
-        <img src={armyPic} alt="Army/Family" />
-        <img src={armyPic} alt="Army/Family" />
-        <img src={armyPic} alt="Army/Family" />
+        <a href="https://www.google.com/">Link</a>
+        <a href="https://www.google.com/">Link</a>
+        <a href="https://www.google.com/">Link</a>
         <img src={armyPic} alt="Army/Family" />
 
         { /* "Vacation" by Dirty Heads */ }
