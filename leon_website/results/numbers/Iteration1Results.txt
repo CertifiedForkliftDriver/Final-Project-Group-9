@@ -12,3 +12,5 @@ User57: 3s
 User12: 100s
 User37: 42s
 User52: 120s
+
+Average: 43.9
