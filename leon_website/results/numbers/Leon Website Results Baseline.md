@@ -34,3 +34,5 @@ User55 : 142s
 User57 : 6s
 User58 : 0s
 User59 : 15s
+
+Average: 22.67 seconds
