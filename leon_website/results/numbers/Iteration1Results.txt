@@ -1,5 +1,7 @@
 Using a subset 10 random users from the set of the Population of users
 
+adding 2 images
+
 User: Presence Time
 
 User6: 40s
