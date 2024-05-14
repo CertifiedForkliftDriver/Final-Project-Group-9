@@ -2,7 +2,7 @@ import time
 import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from popUsers import user43 as user
+from popUsers import user52 as user
 
 
 # Initialize browser

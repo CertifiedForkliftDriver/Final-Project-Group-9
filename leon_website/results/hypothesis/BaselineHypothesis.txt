@@ -1,0 +1,3 @@
+We beleive the users right now are searching for images and things of the sort, so for this next
+iteration we will add more images to bring up the presence time and ultimately give the users
+a better experience so they stay on the website longer.
