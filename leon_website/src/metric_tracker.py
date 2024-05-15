@@ -2,7 +2,7 @@ import time
 import csv
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from popUsers import user52 as user
+from popUsers import user58 as user
 
 
 # Initialize browser
@@ -15,3 +15,4 @@ user.userAction(driver)
 
 # Close the browser
 driver.quit()
+

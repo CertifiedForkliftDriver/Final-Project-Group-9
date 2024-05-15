@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './firebase.js';
 import armyPic from './images/armypic.png';
 import music from './assets/Vacation.mp3'
 
@@ -22,6 +23,7 @@ function App() {
             <h1 id="headingBackground">ABOUT ME</h1>
         </div>    
         <p style={{ fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" }}>Early years</p>
+        The bustling university CSUSB fun me I campus was alive with the energy of students rushing to their lectures and seminars, carrying their textbooks and laptops. Professors were preparing syllabi for their courses, while research assistants were busy in the library, surrounded by academic journals and reference materials. The lecture halls were filled with the sounds of academic discourse, as undergraduates and graduates alike engaged in discussions, preparing for exams and working on assignments. The student union organized various extracurricular activities and events, promoting a sense of community among the diverse student body. In the dormitories, roommates collaborated on group projects and shared study tips. Meanwhile, the administration office handled admissions inquiries and financial aid applications, ensuring that every aspect of university life ran smoothly. Faculty members attended departmental meetings to discuss curriculum development, while the university's alumni network supported current students through mentorship programs and scholarships. The vibrant atmosphere was a testament to the thriving educational environment that a university provides.
         Hello my name is Andrew Leon I'm 31 years young sometimes I forget how old I am until I say it out loud, I am Mexican American grew up with a single mom, My dad was still in my life just didn't live with us, growing up I had bright red hair that I used to hate my hair color naturally darkened with age until it was just light brown. I have lived in California my whole life Southern California especially mainly OC, and LA county. My two biggest loves as a kid was skateboarding and computers mainly games but I loved building and modifying them and messing with software code, in school I was an average student usually maintained a 3.0 my early years are kinda boring I was just a typical California kid in the late 90's and early 2000's.
 
         { /* Second section */ }
@@ -33,9 +35,12 @@ function App() {
         after basic I was stationed in Alaska that was a lot more fun then I had initially thougt there I became my company armorer and just a reliable soldier that anyone can depend on I met my wife fell in love and got married and had a baby after my daughter was born I knew I didn't wanna stay in the army it just scared me to think of going off to fight a war that meant nothing like the war in Afghanistan so when our contracts were up my wife and I left and became civilians again.
         <p style={{ fontFamily: "fantasy" }}>Present/Future</p>
         As of right now just working basic job while I pursue my bachleors degree within my time leaving the army and now I had another daughter just a beautiful and healthy as the first, but for current times there isn't to much intresting things going on except my family, and for the future well we'll see.
-        <a href="https://www.google.com/">Link</a>
-        <a href="https://www.google.com/">Link</a>
-        <a href="https://www.google.com/">Link</a>
+        <a link='https://www.google.com/'>LINK</a>
+        <a link='https://www.google.com/'>LINK</a>
+        <a link='https://www.google.com/'>LINK</a>
+        <img src={armyPic} alt="Army/Family" />
+        <img src={armyPic} alt="Army/Family" />
+        <img src={armyPic} alt="Army/Family" />
         <img src={armyPic} alt="Army/Family" />
 
         { /* "Vacation" by Dirty Heads */ }
